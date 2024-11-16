@@ -13,6 +13,7 @@ export default defineConfig({
   server: {
     port: 10000,  // Изменено здесь
     proxy: {
+      '/': 'http://0.0.0.0:10000',
       '/api': 'http://0.0.0.0:10000'
     }
   },
