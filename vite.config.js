@@ -11,10 +11,9 @@ export default defineConfig({
     }
   },
   server: {
-    port: 10000,  // Изменено здесь
+    port: 3000,  // Изменено здесь
     proxy: {
-      '/': 'http://0.0.0.0:10000',
-      '/api': 'http://0.0.0.0:10000'
+      '/api': 'http://0.0.0.0:3000'
     }
   },
   plugins: [
