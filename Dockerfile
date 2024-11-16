@@ -23,5 +23,5 @@ RUN pnpm build
 CMD ["pnpm", "dev"]
 
 # Открываем порт (замените 3000 на необходимый порт)
-EXPOSE 5173
+EXPOSE 3000
 
