@@ -7,7 +7,7 @@ services:
       - .env
       -.env.local
     ports:
-      - "3000:3000"  # Adjust the port mapping according to your application
+      - "10000:10000"  # Adjust the port mapping according to your application
     volumes:
       - .:/app
       - /app/node_modules  # If using Node.js, prevents local node_modules from mounting
