@@ -1,5 +1,5 @@
 import { UltravoxSession } from 'ultravox-client';
-const apiUrl = 'http://0.0.0.0:10000/startCall';
+const apiUrl = 'http://0.0.0.0:3000/startCall';
 const expMessages = new Set(["debug"]);
 let uvSession = new UltravoxSession({ experimentalMessages: expMessages });
 
